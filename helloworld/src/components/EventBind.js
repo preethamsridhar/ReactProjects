@@ -15,6 +15,7 @@ export class EventBind extends Component {
     //         message: "Clicked"
     //     })
     // }
+    
     clickHandler = () => {
         this.setState({
             message: "Clicked"
