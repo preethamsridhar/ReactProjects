@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
+import PortalDemo from './components/PortalDemo';
 // import FocusInput from './components/FocusInput';
-import ForwardRefParentInput from './components/ForwardRefParentInput';
+// import ForwardRefParentInput from './components/ForwardRefParentInput';
 // import RefsDemo from './components/RefsDemo';
 // import PureComp from './components/PureComp';
 // import ParentComp from './components/ParentComp';
@@ -32,7 +33,7 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <ForwardRefParentInput></ForwardRefParentInput>
+                <PortalDemo></PortalDemo>
             </div>
         );
     }
