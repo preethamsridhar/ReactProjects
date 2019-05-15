@@ -2,9 +2,10 @@ import React, { PureComponent } from 'react'
 
 class PureComp extends PureComponent {
     render() {
+        console.log('Pure component render')
         return (
             <div>
-                <p> Pure component </p>
+                Pure component {this.props.name}
             </div>
         )
     }
